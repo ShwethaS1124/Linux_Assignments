@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 echo " "
 echo "Q1) to demonstrate that the script accepting 3 arguments"
@@ -126,3 +127,14 @@ echo "REPORT:
       Path to the backup directory: $2" > $2/backup_report.log
       
 cat $2/backup_report.log
+```
+
+## OUTPUT:
+
+REPORT: 
+      date :Fri Feb 06 10:04:14 PST 2026 
+      Total no.of files processed : 1 
+      Total size of files backed up : 607 bytes
+      Path to the backup directory: ./backup_directory
+
+
